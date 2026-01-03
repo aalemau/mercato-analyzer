@@ -5,8 +5,8 @@ import matplotlib
 matplotlib.use('Agg')  # Disattiva GUI
 import matplotlib.pyplot as plt
 
-BOT_TOKEN = "7984905797:AAGZkqyzBUCyIsskkzQ4wsCOgUCEpG1hjG4"
-CHAT_ID = "1725835010"
+BOT_TOKEN = ""
+CHAT_ID = ""
 
 def plot_forecast(forecast_df):
     plt.figure(figsize=(10,6))
@@ -90,3 +90,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
